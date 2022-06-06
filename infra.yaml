@@ -3,6 +3,7 @@ Resources:
   S3Bucket:
     Type: 'AWS::S3::Bucket'
     Properties:
+      BucketName: demo-website-1
       AccessControl: PublicRead
       WebsiteConfiguration:
         IndexDocument: index.html
